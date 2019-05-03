@@ -1,0 +1,23 @@
+<idea-plugin url="https://github.com/terrason/IntellijPlugin-ExposeJavadoc">
+    <id>com.capsulode.intellij.plugin.javadoc.ExposeJavadoc</id>
+    <name>ExposeJavadoc</name>
+    <vendor email="jterraghost@gmail.com" url="https://github.com/terrason/IntellijPlugin-ExposeJavadoc">Angus</vendor>
+
+    <description><![CDATA[
+    在生成Getter和Setter时，可以使用$field.javadoc来获取对应属性上的注释文档<br/>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <getterSetterProvider implementation="com.capsulode.intellij.plugin.javadoc.codeInsight.ExposeJavadocGetterSetterPrototypeProvider" />
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
