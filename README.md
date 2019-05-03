@@ -14,4 +14,4 @@ $field.javadoc ##
 #end
 
 ```
-就可以在生成对应Getter或Setter方法时附带上对应属性的JavaDoc。
+就可以在生成Getter或Setter方法时附带上对应属性的JavaDoc。
