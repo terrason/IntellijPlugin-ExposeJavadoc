@@ -15,3 +15,4 @@ $field.javadoc ##
 
 ```
 就可以在生成Getter或Setter方法时附带上对应属性的JavaDoc。
+![Usage Demo](src/main/resources/ExposeJavaDoc-Usage.gif)
