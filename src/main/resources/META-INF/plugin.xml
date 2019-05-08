@@ -6,7 +6,7 @@
     <!-- Description of the plugin. -->
     <description><![CDATA[
     This plugin expose a `$field.javadoc` property to the template when generating Getter or Setter.<br />
-    More usage see: https://github.com/terrason/IntellijPlugin-ExposeJavadoc
+    More usage see: <a href="https://github.com/terrason/IntellijPlugin-ExposeJavadoc">https://github.com/terrason/IntellijPlugin-ExposeJavadoc</a>
     ]]></description>
 
     <!-- Description of changes in the latest version of the plugin.
