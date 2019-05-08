@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.capsulode.intellij.plugin.javadoc'
-version '1.0'
+version '1.0.1'
 
 sourceCompatibility = 1.8
 
@@ -22,7 +22,8 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      增加扩展点，扩展PsiFieldMember<br />"""
+    Initial release of the plugin.
+    Enabling `\$field.javadoc` in the template script when Generating Getter or Setter."""
 }
 publishPlugin {
     username intellijPublishUsername
