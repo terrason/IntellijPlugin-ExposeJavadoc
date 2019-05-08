@@ -1,6 +1,8 @@
 ExposeJavadoc
 =====================
 
+Jetbrains Plugin : https://plugins.jetbrains.com/plugin/12351-exposejavadoc
+
 An Intellij IDEA plugin for enabling `$field.javadoc` 
 in the template script when generating Getter or Setter.
 
