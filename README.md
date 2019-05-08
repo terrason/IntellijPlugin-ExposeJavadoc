@@ -7,7 +7,7 @@ An Intellij IDEA plugin for enabling `$field.javadoc`
 in the template script when generating Getter or Setter.
 
 编辑Getter或Setter模版时，Intellij IDEA 默认无法获取对应变量上的JavaDoc文档，
-ExposeJavadoc插给你最需要的`$field.javadoc`。
+ExposeJavadoc插件给你最需要的`$field.javadoc`。
 
 你可以在模版头部插入：
 ```
