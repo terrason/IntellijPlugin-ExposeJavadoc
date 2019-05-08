@@ -3,9 +3,21 @@
     <name>ExposeJavadoc</name>
     <vendor email="jterraghost@gmail.com" url="https://github.com/terrason/IntellijPlugin-ExposeJavadoc">Angus</vendor>
 
+    <!-- Description of the plugin. -->
     <description><![CDATA[
-    在生成Getter和Setter时，可以使用$field.javadoc来获取对应属性上的注释文档<br/>
+    This plugin expose a `$field.javadoc` property to the template when generating Getter or Setter.<br />
+    More usage see: https://github.com/terrason/IntellijPlugin-ExposeJavadoc
     ]]></description>
+
+    <!-- Description of changes in the latest version of the plugin.
+         Displayed in the "Plugins" settings dialog and in the
+         plugin repository Web interface. -->
+    <change-notes><![CDATA[
+        Initial release of the plugin.
+
+        Enabling `$field.javadoc` in the template script when Generating Getter or Setter.
+    ]]></change-notes>
+    <!-- Minimum and maximum build of IDE compatible with the plugin -->
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
